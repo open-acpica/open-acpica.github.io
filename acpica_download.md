@@ -4,7 +4,6 @@
 - [Back to main page](index.md)
 
 - Other articles in this section
-    - [Project overview](acpica_overview.md)
     - [External documentation](acpica_documentation.md)
 
 ## Source Code Tree

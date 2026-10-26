@@ -4,7 +4,6 @@
 - [Back to main page](index.md)
 
 - Other articles in this section
-    - [Project overview](acpica_overview.md)
     - [Downloads](acpica_download.md)
 
 ## Documents
