@@ -77,6 +77,10 @@ User-space tools and utilities:
 > [!NOTE]
 > The ACPICA components run in both kernel mode and user mode.
 
+## Source code and latest release
+- The whole source code is available on [github](https://github.com/open-acpica).
+- [Latest release](https://github.com/open-acpica/acpica/releases/tag/20260930)
+
 ## System Requirements
 - Operating system written in C (or an ability to interface C code).
 - ACPICA initialization calls placed in the startup routine.
@@ -100,18 +104,13 @@ includes conversion of the ACPICA source code to the Linux kernel coding
 standard. In the Linux kernel, ACPICA is dual-licensed under the BSD-3-Clause
 or GPL-2.0 licenses.
 
-ACPICA is licensed under the
-[BSD-3-Clause](https://github.com/open-acpica/acpica/blob/master/LICENSE.BSD-3-Clause)
-or the
-[GPL-2.0-only](https://github.com/open-acpica/acpica/blob/master/LICENSE.GPL-2.0-only)
-license, at your option.
-
 ## News
 | Date       | Description                                                                   |
 | ---------- | ----------------------------------------------------------------------------- |
 | 2026.09.30 | ACPICA is now licensed under BSD-3-Clause OR GPL-2.0-only                     |
 | 2026.09.30 | Windows packages are discontinued; Linux binaries are published on GitHub     |
 | 2026.09.30 | iASL: Added support for the KEYP, MISC and UBRT ACPI tables                   |
+| 2026.09.30 | New ACPICA release tag 20260930                                               |
 | 2025.12.12 | Many existing ACPI tables updated to follow the ACPI 6.6 specification        |
 | 2024.08.27 | The ACPI Reduced Hardware mode now supports waking up from the S3 state fully |
 | 2023.03.31 | iASL preprocessor now supports #define macros (single-line)                   |
@@ -150,16 +149,6 @@ ACPICA also closely tracks new releases of the ACPI specification.
 Except for Windows, almost all operating systems use the ACPICA code
 base to enable ACPI for power management and configuration, as well as
 the iASL compiler to write BIOS implementations.
-
-### How is the ACPICA source code licensed?
-Starting with version 20260930, ACPICA is licensed under the BSD-3-Clause
-or the GPL-2.0-only license, at your option. Each source file carries the
-`SPDX-License-Identifier: BSD-3-Clause OR GPL-2.0-only` header and the full
-license texts are included in the
-[LICENSE.BSD-3-Clause](https://github.com/open-acpica/acpica/blob/master/LICENSE.BSD-3-Clause)
-and
-[LICENSE.GPL-2.0-only](https://github.com/open-acpica/acpica/blob/master/LICENSE.GPL-2.0-only)
-files.
 
 ### What is the implicit return issue?
 The AML definition blocks in some systems contain an error, where the
